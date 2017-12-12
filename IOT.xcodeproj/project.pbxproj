@@ -31,6 +31,9 @@
 		8B53F2621FD5F9A10096EA69 /* IOTFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53F2611FD5F9A10096EA69 /* IOTFeedCollectionViewCell.swift */; };
 		8B53F2641FD63E520096EA69 /* ITOSingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53F2631FD63E520096EA69 /* ITOSingInViewController.swift */; };
 		8B53F2671FD640E80096EA69 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53F2661FD640E80096EA69 /* Extension.swift */; };
+		8BE5EDB21FDEEF4D0059F446 /* HeaderFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5EDB11FDEEF4D0059F446 /* HeaderFeedCollectionViewCell.swift */; };
+		8BE5EDB41FDF02660059F446 /* IOTHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5EDB31FDF02660059F446 /* IOTHeaderCollectionReusableView.swift */; };
+		8BE5EDB61FDF4A4A0059F446 /* IOTNewDeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5EDB51FDF4A4A0059F446 /* IOTNewDeviceDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		8B53F2611FD5F9A10096EA69 /* IOTFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTFeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		8B53F2631FD63E520096EA69 /* ITOSingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITOSingInViewController.swift; sourceTree = "<group>"; };
 		8B53F2661FD640E80096EA69 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8BE5EDB11FDEEF4D0059F446 /* HeaderFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BE5EDB31FDF02660059F446 /* IOTHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		8BE5EDB51FDF4A4A0059F446 /* IOTNewDeviceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTNewDeviceDetailViewController.swift; sourceTree = "<group>"; };
 		BD2905D8482704B305DACC68 /* Pods_IOT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B3765B070406EA031B008F /* Pods-IOT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOT.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOT/Pods-IOT.release.xcconfig"; sourceTree = "<group>"; };
 		DEBE190E6C65264247725AE8 /* Pods-IOT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOT/Pods-IOT.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,8 +126,11 @@
 				8B53F25B1FD5EF200096EA69 /* SplashViewController.swift */,
 				8B53F25D1FD5F8A30096EA69 /* IOTFeedCollectionViewController.swift */,
 				8B53F2611FD5F9A10096EA69 /* IOTFeedCollectionViewCell.swift */,
+				8BE5EDB11FDEEF4D0059F446 /* HeaderFeedCollectionViewCell.swift */,
 				8B53F2631FD63E520096EA69 /* ITOSingInViewController.swift */,
+				8BE5EDB31FDF02660059F446 /* IOTHeaderCollectionReusableView.swift */,
 				8B53F2311FD5EB9D0096EA69 /* Main.storyboard */,
+				8BE5EDB51FDF4A4A0059F446 /* IOTNewDeviceDetailViewController.swift */,
 				8B53F2501FD5ECD00096EA69 /* Fonts */,
 				8B53F2371FD5EB9D0096EA69 /* Assets.xcassets */,
 				8B53F2391FD5EB9D0096EA69 /* LaunchScreen.storyboard */,
@@ -266,10 +275,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IOT/Pods-IOT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,8 +313,11 @@
 				8B53F2301FD5EB9D0096EA69 /* ViewController.swift in Sources */,
 				8B53F2621FD5F9A10096EA69 /* IOTFeedCollectionViewCell.swift in Sources */,
 				8B53F2361FD5EB9D0096EA69 /* IOT.xcdatamodeld in Sources */,
+				8BE5EDB41FDF02660059F446 /* IOTHeaderCollectionReusableView.swift in Sources */,
 				8B53F22E1FD5EB9D0096EA69 /* AppDelegate.swift in Sources */,
+				8BE5EDB21FDEEF4D0059F446 /* HeaderFeedCollectionViewCell.swift in Sources */,
 				8B53F25E1FD5F8A40096EA69 /* IOTFeedCollectionViewController.swift in Sources */,
+				8BE5EDB61FDF4A4A0059F446 /* IOTNewDeviceDetailViewController.swift in Sources */,
 				8B53F25C1FD5EF200096EA69 /* SplashViewController.swift in Sources */,
 				8B53F2641FD63E520096EA69 /* ITOSingInViewController.swift in Sources */,
 				8B53F2671FD640E80096EA69 /* Extension.swift in Sources */,

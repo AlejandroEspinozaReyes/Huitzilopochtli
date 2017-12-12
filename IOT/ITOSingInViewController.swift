@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class ITOSingInViewController: UIViewController {
     
@@ -18,7 +19,6 @@ class ITOSingInViewController: UIViewController {
     @IBOutlet weak var singInButton: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var userNameTextField: UITextField!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,7 +75,6 @@ class ITOSingInViewController: UIViewController {
             print("Form is not valid")
             return
         }
-        
 //        Auth.auth().signIn(withEmail: email, password: password)  {(user, error) in
 //            if error != nil {
 //                print(error.debugDescription)
@@ -99,5 +98,7 @@ class ITOSingInViewController: UIViewController {
 //        }
 //
   }
+
+    
 
 }

@@ -7,6 +7,7 @@ target 'IOT' do
 
   # Pods for IOT
     pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+    pod 'SnapKit', '~> 4.0.0'
 
 
 end
